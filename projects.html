@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Abhishek R</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Abhishek R</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-button">About</a></li>
+                <li><a href="projects.html" class="nav-button active">Projects</a></li>
+                <li><a href="skills.html" class="nav-button">Skills</a></li>
+                <li><a href="certifications.html" class="nav-button">Certifications</a></li>
+                <li><a href="highlights.html" class="nav-button">Highlights</a></li>
+                <li><a href="technology.html" class="nav-button">Technology</a></li>
+                <li><a href="education.html" class="nav-button">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="projects">
+            <h2>My Projects</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="ai">AI/ML</button>
+                <button class="filter-btn" data-filter="dbms">DBMS</button>
+            </div>
+            <div class="project-card" data-category="dbms web">
+                <h3>Crime Management System</h3>
+                <p>Developed a web-based system to record and track crime cases with statuses like pending, completed,
+                    and ongoing. It
+                    allows easy retrieval of case records from specific police stations, improving data accessibility.
+                    Built using HTML,
+                    CSS, PHP, MySQL, and JavaScript for efficient case management.</p>
+            </div>
+            <div class="project-card" data-category="ai">
+                <h3>Development of map-matching algorithm using AI-ML techniques to distinguish vehicular movement on
+                    highway and service
+                    road</h3>
+                <p>Developed a robust map-matching algorithm leveraging AI-ML techniques to improve GPS data accuracy in
+                    navigation
+                    systems. Utilized a Hidden Markov Model (HMM) for sequence alignment and a Random Forest Classifier
+                    for road
+                    classification. The HMM optimized transition and emission probabilities to align noisy GPS data with
+                    road segments,
+                    while the classifier distinguished road types based on geometry, speed limits, and traffic density.
+                    Evaluated on
+                    real-world datasets, achieving improved accuracy and computational efficiency over traditional
+                    methods. This project
+                    demonstrates the potential of machine learning in enhancing real-time transportation and navigation
+                    solutions.</p>
+            </div>
+            <div class="project-card" data-category="ai web">
+                <h3>Music Genre Classification Web Application Using Deep Learning</h3>
+                <p>Developed a robust web application leveraging deep learning to classify music into 10 genres with
+                    87.69% accuracy.
+                    Utilized a Convolutional Neural Network (CNN) with Mel-Frequency Cepstral Coefficients (MFCCs) for
+                    feature extraction
+                    and Flask for real-time predictions. The CNN optimized spatial pattern recognition in audio data,
+                    delivering dynamic
+                    visualizations (waveforms, spectrograms) and static performance metrics (confusion matrix, ROC
+                    curves). Evaluated on the
+                    GTZAN dataset and user-uploaded audio, achieving high accuracy and user-friendly interfaces. This
+                    project showcases the
+                    integration of AI and web technologies for music analysis and visualization.</p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
